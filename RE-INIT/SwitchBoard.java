@@ -1,0 +1,91 @@
+public class SwitchBoard {
+    static int switchCount ;
+    static int socketCount ;
+    static String brand ;
+    static boolean isModular ;
+    static String material ;
+    static String color ;
+    static String model ;
+    static boolean hasIndicator;
+    static boolean surgeProtected ;
+    static String manufacturingDate ;
+    static String warrantyPeriod ;
+    static boolean childSafe ;
+    static boolean waterResistant ;
+    static String inputVoltage ;
+    static String outputVoltage ;
+    static int maxCurrentCapacity ;
+    static String installationType ;
+    static boolean smartSwitchCompatible ;
+    static boolean grounded ;
+    static String certification ;
+
+    public static void main(String[] args) {
+        System.out.println("SwitchBoard Details:");
+        System.out.println("Switch Count: " + switchCount);
+        System.out.println("Socket Count: " + socketCount);
+        System.out.println("Brand: " + brand);
+        System.out.println("Is Modular: " + isModular);
+        System.out.println("Material: " + material);
+        System.out.println("Color: " + color);
+        System.out.println("Model: " + model);
+        System.out.println("Has Indicator: " + hasIndicator);
+        System.out.println("Surge Protected: " + surgeProtected);
+        System.out.println("Manufacturing Date: " + manufacturingDate);
+        System.out.println("Warranty Period: " + warrantyPeriod);
+        System.out.println("Child Safe: " + childSafe);
+        System.out.println("Water Resistant: " + waterResistant);
+        System.out.println("Input Voltage: " + inputVoltage);
+        System.out.println("Output Voltage: " + outputVoltage);
+        System.out.println("Max Current Capacity: " + maxCurrentCapacity);
+        System.out.println("Installation Type: " + installationType);
+        System.out.println("Smart Switch Compatible: " + smartSwitchCompatible);
+        System.out.println("Grounded: " + grounded);
+        System.out.println("Certification: " + certification);
+	System.out.println("");
+
+    int switchCount = 6;
+    int socketCount = 4;
+    String brand = "Anchor";
+    boolean isModular = true;
+    String material = "Plastic";
+    String color = "White";
+    String model = "A101";
+    boolean hasIndicator = true;
+    boolean surgeProtected = true;
+    String manufacturingDate = "01-05-2024";
+    String warrantyPeriod = "2 years";
+    boolean childSafe = true;
+    boolean waterResistant = false;
+    String inputVoltage = "220V";
+    String outputVoltage = "220V";
+    int maxCurrentCapacity = 16;
+    String installationType = "Wall-mounted";
+    boolean smartSwitchCompatible = false;
+    boolean grounded = true;
+    String certification = "ISI";
+
+	System.out.println("SwitchBoard Details:");
+        System.out.println("Switch Count: " + switchCount);
+        System.out.println("Socket Count: " + socketCount);
+        System.out.println("Brand: " + brand);
+        System.out.println("Is Modular: " + isModular);
+        System.out.println("Material: " + material);
+        System.out.println("Color: " + color);
+        System.out.println("Model: " + model);
+        System.out.println("Has Indicator: " + hasIndicator);
+        System.out.println("Surge Protected: " + surgeProtected);
+        System.out.println("Manufacturing Date: " + manufacturingDate);
+        System.out.println("Warranty Period: " + warrantyPeriod);
+        System.out.println("Child Safe: " + childSafe);
+        System.out.println("Water Resistant: " + waterResistant);
+        System.out.println("Input Voltage: " + inputVoltage);
+        System.out.println("Output Voltage: " + outputVoltage);
+        System.out.println("Max Current Capacity: " + maxCurrentCapacity);
+        System.out.println("Installation Type: " + installationType);
+        System.out.println("Smart Switch Compatible: " + smartSwitchCompatible);
+        System.out.println("Grounded: " + grounded);
+        System.out.println("Certification: " + certification);
+
+    }
+}

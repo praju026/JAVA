@@ -1,0 +1,91 @@
+public class Bank {
+    static String name ;
+    static String branch ;
+    static String ifscCode ;
+    static String managerName ;
+    static String location ;
+    static String establishedYear ;
+    static int employeesCount ;
+    static int totalAccounts ;
+    static double totalAssets ;
+    static boolean isNationalized ;
+    static String workingHours ;
+    static boolean onlineBankingAvailable ;
+    static int atmCount ;
+    static double loanInterestRate ;
+    static double savingsInterestRate ;
+    static String contactEmail ;
+    static String contactNumber ;
+    static String licenseNumber ;
+    static boolean lockerFacility ;
+    static String swiftCode ;
+
+    public static void main(String bank[]) {
+    	System.out.println("Bank Details:");
+        System.out.println("Name: " + name);
+        System.out.println("Branch: " + branch);
+        System.out.println("IFSC Code: " + ifscCode);
+        System.out.println("Manager Name: " + managerName);
+        System.out.println("Location: " + location);
+        System.out.println("Established Year: " + establishedYear);
+        System.out.println("Employees Count: " + employeesCount);
+        System.out.println("Total Accounts: " + totalAccounts);
+        System.out.println("Total Assets: " + totalAssets);
+        System.out.println("Nationalized: " + isNationalized);
+        System.out.println("Working Hours: " + workingHours);
+        System.out.println("Online Banking Available: " + onlineBankingAvailable);
+        System.out.println("ATM Count: " + atmCount);
+        System.out.println("Loan Interest Rate: " + loanInterestRate);
+        System.out.println("Savings Interest Rate: " + savingsInterestRate);
+        System.out.println("Contact Email: " + contactEmail);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("License Number: " + licenseNumber);
+        System.out.println("Locker Facility: " + lockerFacility);
+        System.out.println("Swift Code: " + swiftCode);
+	System.out.println("");
+
+
+    String name = "State Bank";
+    String branch = "MG Road";
+    String ifscCode = "SBIN0000123";
+    String managerName = "Mr. Ravi";
+    String location = "Bangalore";
+    String establishedYear = "1955";
+    int employeesCount = 45;
+    int totalAccounts = 32000;
+    double totalAssets = 25600000.75;
+    boolean isNationalized = true;
+    String workingHours = "9 AM - 4 PM";
+    boolean onlineBankingAvailable = true;
+    int atmCount = 12;
+    double loanInterestRate = 7.8;
+    double savingsInterestRate = 4.5;
+    String contactEmail = "support@sbi.com";
+    String contactNumber = "1800-112233";
+    String licenseNumber = "LIC01234";
+    boolean lockerFacility = true;
+    String swiftCode = "SBININBBXXX";
+
+    	System.out.println("Bank Details:");
+        System.out.println("Name: " + name);
+        System.out.println("Branch: " + branch);
+        System.out.println("IFSC Code: " + ifscCode);
+        System.out.println("Manager Name: " + managerName);
+        System.out.println("Location: " + location);
+        System.out.println("Established Year: " + establishedYear);
+        System.out.println("Employees Count: " + employeesCount);
+        System.out.println("Total Accounts: " + totalAccounts);
+        System.out.println("Total Assets: " + totalAssets);
+        System.out.println("Nationalized: " + isNationalized);
+        System.out.println("Working Hours: " + workingHours);
+        System.out.println("Online Banking Available: " + onlineBankingAvailable);
+        System.out.println("ATM Count: " + atmCount);
+        System.out.println("Loan Interest Rate: " + loanInterestRate);
+        System.out.println("Savings Interest Rate: " + savingsInterestRate);
+        System.out.println("Contact Email: " + contactEmail);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("License Number: " + licenseNumber);
+        System.out.println("Locker Facility: " + lockerFacility);
+        System.out.println("Swift Code: " + swiftCode);
+    }
+}

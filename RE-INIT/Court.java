@@ -1,0 +1,91 @@
+public class Court {
+    static String name ;
+    static String location ;
+    static String courtType ;
+    static int numberOfJudges ;
+    static int numberOfCasesPerDay ;
+    static String establishedYear ;
+    static String chiefJustice ;
+    static boolean hasOnlineFiling ;
+    static boolean isEcourtEnabled ;
+    static int courtRooms ;
+    static boolean libraryAvailable ;
+    static boolean canPublicAttend ;
+    static String contactNumber ;
+    static String email ;
+    static boolean hasCCTV ;
+    static String jurisdiction ;
+    static boolean hasWaitingLounge;
+    static String workingHours;
+    static boolean hasLift ;
+    static boolean parkingAvailable ;
+
+    public static void main(String[] args) {
+
+        System.out.println("Court Details:");
+        System.out.println("Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Court Type: " + courtType);
+        System.out.println("Number Of Judges: " + numberOfJudges);
+        System.out.println("Number Of Cases Per Day: " + numberOfCasesPerDay);
+        System.out.println("Established Year: " + establishedYear);
+        System.out.println("Chief Justice: " + chiefJustice);
+        System.out.println("Has Online Filing: " + hasOnlineFiling);
+        System.out.println("Is E-Court Enabled: " + isEcourtEnabled);
+        System.out.println("Court Rooms: " + courtRooms);
+        System.out.println("Library Available: " + libraryAvailable);
+        System.out.println("Can Public Attend: " + canPublicAttend);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("Email: " + email);
+        System.out.println("Has CCTV: " + hasCCTV);
+        System.out.println("Jurisdiction: " + jurisdiction);
+        System.out.println("Has Waiting Lounge: " + hasWaitingLounge);
+        System.out.println("Working Hours: " + workingHours);
+        System.out.println("Has Lift: " + hasLift);
+        System.out.println("Parking Available: " + parkingAvailable);
+	System.out.println("");
+
+    	String name = "High Court of Karnataka";
+    	String location = "Bangalore";
+    	String courtType = "High Court";
+    	int numberOfJudges = 35;
+    	int numberOfCasesPerDay = 500;
+    	String establishedYear = "1884";
+    	String chiefJustice = "Justice A.B. Prasad";
+    	boolean hasOnlineFiling = true;
+    	boolean isEcourtEnabled = true;
+    	int courtRooms = 20;
+	boolean libraryAvailable = true;
+    	boolean canPublicAttend = true;
+    	String contactNumber = "080-12345678";
+    	String email = "info@karnatakajudiciary.kar.nic.in";
+    	boolean hasCCTV = true;
+    	String jurisdiction = "State of Karnataka";
+    	boolean hasWaitingLounge = true;
+    	String workingHours = "10 AM - 5 PM";
+    	boolean hasLift = true;
+    	boolean parkingAvailable = true;
+
+        System.out.println("Court Details:");
+        System.out.println("Name: " + name);
+        System.out.println("Location: " + location);
+        System.out.println("Court Type: " + courtType);
+        System.out.println("Number Of Judges: " + numberOfJudges);
+        System.out.println("Number Of Cases Per Day: " + numberOfCasesPerDay);
+        System.out.println("Established Year: " + establishedYear);
+        System.out.println("Chief Justice: " + chiefJustice);
+        System.out.println("Has Online Filing: " + hasOnlineFiling);
+        System.out.println("Is E-Court Enabled: " + isEcourtEnabled);
+        System.out.println("Court Rooms: " + courtRooms);
+        System.out.println("Library Available: " + libraryAvailable);
+        System.out.println("Can Public Attend: " + canPublicAttend);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("Email: " + email);
+        System.out.println("Has CCTV: " + hasCCTV);
+        System.out.println("Jurisdiction: " + jurisdiction);
+        System.out.println("Has Waiting Lounge: " + hasWaitingLounge);
+        System.out.println("Working Hours: " + workingHours);
+        System.out.println("Has Lift: " + hasLift);
+        System.out.println("Parking Available: " + parkingAvailable);
+    }
+}
