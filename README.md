@@ -24,7 +24,8 @@ methodName: The name of the method.
 
 parameterList: A list of parameters passed to the method.
 
-✅ Advantages of Using Methods
+✅ Advantages of Using Methods :
+
 Code Reusability: Write once, use multiple times.
 
 Modular Code: Easier to read and maintain.
