@@ -1,6 +1,6 @@
 # JAVA
 
-# 📘 What is a Method in Java?
+# 📘 What is a Method in Java ?
 
 A **method** in Java is a block of code that performs a specific task. It is used to operate on data (variables) and promote code reuse and organization.
 
@@ -15,16 +15,6 @@ A method is:
 - Designed for **code reuse**, better organization, and maintainability.
 
 ---
-
-## 🔤 Syntax
-
-```java
-<access-modifier> returnType methodName(parameterList) {
-    // Method body
-    return value;
-}
-
-
 Components:
 access-modifier: public, private, protected, or default (package-private).
 
@@ -42,3 +32,11 @@ Modular Code: Easier to read and maintain.
 Debugging: Simplifies finding and fixing bugs.
 
 Testing: Each method can be tested individually.
+
+##  Syntax
+
+```java
+<access-modifier> returnType methodName(parameterList) {
+    // Method body
+    return value;
+}
