@@ -1,0 +1,27 @@
+class HairClip {
+
+HairClip(String color,String material,String brand,float price,String type,String size){
+    this.color=color;
+    this.material=material;
+    this.brand=brand;
+    this.price=price;
+    this.type=type;
+    this.size=size;
+}
+    String color;
+    String material;
+    String brand;
+    float price;
+    String type;
+    String size;
+
+	public void GetInfo(){
+	System.out.println("COLOR : " + color);
+        System.out.println("MATERIAL : " + material);
+        System.out.println("BRAND : " + brand);
+        System.out.println("PRICE : " + price);
+        System.out.println("TYPE : " + type);
+        System.out.println("SIZE : " + size);
+
+	}
+}
